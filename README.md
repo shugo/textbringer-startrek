@@ -1,6 +1,6 @@
 # textbringer-startrek
 
-Play a Star Trek animation file.
+Play a Star Trek animation file on [Textbringer](https://github.com/shugo/textbringer).
 
 ## Demo
 

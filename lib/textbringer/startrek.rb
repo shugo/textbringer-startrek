@@ -1,7 +1,7 @@
 require "net/http"
 
 define_command :startrek, doc: "Play a Star Trek animation file" do
-  buffer = Buffer.find_or_new("*summary*", undo_limit: 0,
+  buffer = Buffer.find_or_new("*startrek*", undo_limit: 0,
                               read_only: true)
   switch_to_buffer(buffer)
   buffer.read_only_edit do
